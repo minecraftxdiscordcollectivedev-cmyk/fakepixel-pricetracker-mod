@@ -1,0 +1,36 @@
+# build output and caches
+build/
+.gradle/
+out/
+bin/
+run/
+classes/
+
+# editor files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+eclipse/
+
+# local game files and settings (never publish these)
+config/
+*.log
+pricetracker_debug.txt
+seeded.flag
+sync.json
+
+# secrets (never publish these)
+.env
+*.pem
+*.key
+
+# jars are published under Releases, not in the code
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+build_log.txt
+*.log
